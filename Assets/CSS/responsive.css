@@ -1,0 +1,515 @@
+/* =================== BANNER START =================== */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #banner .bannerContents{
+    padding: 65px 0 65px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #banner .bannerContents{
+    padding: 65px 0 65px 20px;
+    }
+    #banner h3{
+    font-size: 62px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #banner .bannerContents{
+    padding: 65px 0 65px 17px;
+    }
+    #banner h3{
+    font-size: 54px;
+    }
+}
+/* =================== BANNER END =================== */
+
+
+
+/* =================== OUR CLIENTS START =================== */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    #clients ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    }
+    #clients li{
+        display: inline-block;
+    }
+    #clients li a{
+        display: inline-block;
+        padding: 25px 46px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #clients ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    }
+    #clients li{
+        display: inline-block;
+    }
+    #clients li a{
+        display: inline-block;
+        padding: 25px 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #clients ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    #clients li{
+        display: inline-block;
+    }
+    #clients li a{
+        display: inline-block;
+        padding: 25px 40px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #clients ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    #clients li{
+        display: inline-block;
+    }
+    #clients li a{
+        display: inline-block;
+        padding: 25px 34px;
+    }
+}
+/* =================== OUR CLIENTS END =================== */
+
+
+
+/* =================== MANAGE COMMUNITY START =================== */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    #manageCommunity .header h2{
+        padding: 0 280px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #manageCommunity .header h2{
+        padding: 0 200px;
+    }
+    #manageCommunity .communityCard{
+    margin: 0 11px;
+    }
+    #manageCommunity .communityCard h5{
+    font-size: 24px;
+    }
+    #manageCommunity .communityCard p{
+    font-size: 12px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #manageCommunity .header h2{
+        padding: 0 90px;
+        font-size: 34px;
+    }
+    #manageCommunity .communityCard{
+    margin: 0 7px;
+    padding: 24px 20px;
+    }
+    #manageCommunity .communityCard h5{
+    font-size: 20px;
+    }
+    #manageCommunity .communityCard p{
+    font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #manageCommunity .header h2{
+        padding: 0 10px;
+        font-size: 32px;
+    }
+    #caringMarketing .caringCard{
+        margin-top: 30px;
+    }
+    #manageCommunity .communityCard{
+        margin: 30px 7px 0 7px;
+        padding: 24px;
+    }
+    #manageCommunity .communityCard h5{
+        font-size: 24px;
+    }
+    #manageCommunity .communityCard p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 575.98px){
+    #manageCommunity .communityCard{
+        margin: 30px 7px 0 7px;
+        padding: 24px;
+    }
+}
+/* =================== MANAGE COMMUNITY END =================== */
+
+
+
+/* =================== PIXEL-GRADE START =================== */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #pixelGrade .pixelContent{
+        padding: 83px 10px 83px 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #pixelGrade .pixelContent{
+        padding: 45px 12px 83px 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #siteFooter .siteFooterContent{
+        padding: 45px 7px 83px 7px;
+    }
+}
+@media (max-width: 575.98px){
+    #siteFooter .siteFooterContent{
+        padding: 45px 5px 83px 5px;
+    }
+}
+/* =================== PIXEL-GRADE END =================== */
+
+
+
+/* =================== HELPING A LOCAL START =================== */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #helpingLocal .helpingContent h2{
+        padding-right: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #helpingLocal .helpingContent h2{
+        padding-right: 280px;
+    }
+    #helpingLocal .helpingAmount{
+        margin-top: 40px;
+    }
+    #helpingLocal .helpingArea{
+        margin-bottom: 16px;
+        padding-right: 30px;
+    }
+    #helpingLocal .amountDetails h4{
+        font-size: 24px;
+    }
+    #helpingLocal .amountDetails p{
+        font-size: 14px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #helpingLocal .helpingContent h2{
+        padding-right: 100px;
+    }
+    #helpingLocal .helpingAmount{
+        margin-top: 40px;
+    }
+    #helpingLocal .helpingArea{
+        margin-bottom: 16px;
+        padding-right: 30px;
+    }
+    #helpingLocal .amountDetails{
+        padding-left: 22px;
+    }
+    #helpingLocal .amountDetails h4{
+        font-size: 22px;
+    }
+    #helpingLocal .amountDetails p{
+        font-size: 12px;
+    }
+}
+/* =================== HELPING A LOCAL END =================== */
+
+
+
+/* =================== SITE-FOOTER START =================== */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #siteFooter .siteFooterContent{
+        padding: 83px 0 83px 30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #siteFooter .siteFooterContent{
+        padding: 83px 15px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #siteFooter .siteFooterContent{
+        padding: 83px 10px;
+    }
+}
+@media (max-width: 575.98px){
+    #siteFooter .siteFooterContent{
+        padding: 83px 7px;
+    }
+}
+/* =================== SITE-FOOTER END =================== */
+
+
+
+/* =================== TIM SMITH START =================== */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    #timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    }
+    #timSmith .timSmithContent ul li{
+    padding-right: 30px;
+    }
+    #timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #timSmith .timSmithContent{
+    padding-left: 70px;
+    }
+    #timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    }
+    #timSmith .timSmithContent ul li{
+    padding-right: 41px;
+    }
+    #timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+    }
+    #timSmith .timSmithContent .button_group{
+    margin-top: 10px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #timSmith .timSmithContent{
+    padding-top: 20px;
+    }
+    #timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    }
+    #timSmith .timSmithContent ul li{
+    padding-right: 30px;
+    }
+    #timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+    }
+    #timSmith .timSmithContent .button_group{
+    margin-top: 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #timSmith .timSmithContent{
+    padding-top: 30px;
+    }
+    #timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    }
+    #timSmith .timSmithContent ul li{
+    padding-right: 34px;
+    }
+    #timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+    }
+    #timSmith .timSmithContent .button_group{
+    margin-top: 10px;
+    }
+}
+@media (max-width: 575.98px){
+    #timSmith .timSmithContent{
+    padding: 30px 15px 0 15px;
+    }
+    #timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    }
+    #timSmith .timSmithContent ul li{
+    padding-right: 20px;
+    }
+    #timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+    }
+    #timSmith .timSmithContent .button_group{
+    margin-top: 10px;
+    font-size: 16px;
+    }
+}
+/* =================== TIM SMITH END =================== */
+
+
+
+/* =================== CARING START =================== */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    #caringMarketing p{
+    padding: 8px 250px 16px 250px;
+    }
+    #caringMarketing h5{
+    font-size: 20px;
+    }
+    #caringMarketing .btn_grp{
+    font-size: 20px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #caringMarketing p{
+        padding: 8px 170px 16px 170px;
+    }
+    #caringMarketing .caringContent{
+        padding: 16px 22px 22px 22px;
+    }
+    #caringMarketing h5{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    #caringMarketing .btn_grp{
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #caringMarketing p{
+    padding: 8px 50px 16px 50px;
+    }
+    #caringMarketing .caringContent{
+        padding: 16px 10px 18px 10px;
+    }
+    #caringMarketing h5{
+    font-size: 12px;
+    padding-bottom: 8px;
+    }
+    #caringMarketing .btn_grp{
+    font-size: 12px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #caringMarketing .row{
+        text-align: center;
+    }
+    #caringMarketing p{
+        padding: 8px 0 16px 0;
+    }
+    #caringMarketing .caringCard{
+        margin-top: 110px;
+    }
+    #caringMarketing .caringContent{
+        padding: 16px 8px 24px 8px;
+        margin: 0 76px;
+    }
+    #caringMarketing h5{
+        font-size: 16px;
+    }
+    #caringMarketing .btn_grp{
+        font-size: 16px;
+    }
+}
+@media (max-width: 575.98px){
+    #caringMarketing p{
+    padding: 8px 0 16px 0;
+    }
+    #caringMarketing .caringCard{
+    margin-top: 30px;
+    }
+    #caringMarketing .caringContent{
+    padding: 16px 8px 24px 8px;
+    text-align: center;
+    }
+    #caringMarketing h5{
+    font-size: 14px;
+    }
+    #caringMarketing .btn_grp{
+    font-size: 14px;
+    }
+}
+/* =================== CARING END =================== */
+
+
+
+/* =================== GET A DEMO  START =================== */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #getDemo .container{
+    text-align: center;
+    padding: 32px 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    #getDemo .container{
+    text-align: center;
+    padding: 32px 0;
+    }
+    #getDemo h2{
+    font-size: 58px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #getDemo .container{
+    text-align: center;
+    padding: 32px 0;
+    }
+    #getDemo h2{
+    font-size: 50px;
+    }
+}
+/* @media (max-width: 575.98px){
+    #getDemo .container{
+    text-align: center;
+    padding: 32px 0;
+    }
+    #getDemo h2{
+    font-size: 40px;
+    }
+} */
+
+/* =================== GET A DEMO  END =================== */
+
+
+
+/* =================== FOOTER START =================== */
+@media (min-width: 768px) and (max-width: 991.98px){
+    #footer .footerCompany{
+        margin-top: 40px;
+    }
+    #footer .footerSupport{
+        margin-top: 36px;
+    }
+    #footer .footerStay{
+        margin-top: 36px;
+    }
+    #footer .footerStay form{
+        margin-right: 310px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    #footer .footerCompany{
+        margin-top: 40px;
+    }
+    #footer .footerSupport{
+        margin-top: 36px;
+    }
+    #footer .footerStay{
+        margin-top: 36px;
+    }
+    #footer .footerStay form{
+        margin-right: 240px;
+    }
+}
+@media (max-width: 575.98px){
+    #footer .footerCompany{
+        margin-top: 40px;
+    }
+    #footer .footerSupport{
+        margin-top: 36px;
+    }
+    #footer .footerStay{
+        margin-top: 36px;
+    }
+    /* #footer .footerStay form{
+        margin-right: 200px;
+    } */
+}
+/* =================== FOOTER END =================== */

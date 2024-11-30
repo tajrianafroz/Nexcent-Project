@@ -1,0 +1,771 @@
+/* =================== CSS COMMON START =================== */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root {
+	--neutral-white: #fff;
+	--neutral-silver: #f5f7fa;
+	--neutral-grey-blue: #abbed1;
+	--neutral-l-grey: #89939e;
+	--neutral-grey: #717171;
+	--neutral-d-grey: #4d4d4d;
+	--neutral-black: #263238;
+	--neutral-white-stroke: #abbed1;
+	--brand-info: #2194f3;
+	--brand-secondary: #263238;
+	--brand-primary: #4caf4f;
+	--shade-s1: #43a046;
+	--shade-s2: #388e3b;
+	--shade-s3: #237d31;
+	--shade-s4: #1b5e1f;
+	--shade-s5: #103e13;
+	--tint-t1: #66bb69;
+	--tint-t2: #81c784;
+	--tint-t3: #a5d6a7;
+	--tint-t4: #c8e6c9;
+	--tint-t5: #e8f5e9;
+	--action-success: #2e7d31;
+	--action-error: #e53835;
+	--action-warning: #fbc02d;
+    --font-family: "Inter", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+}
+body{
+    font-family: var(--font-family);
+    background-color: #F5F5F5;
+}
+/* =================== CSS COMMON END =================== */
+
+
+/* =================== NAV START =================== */
+nav{
+    padding: 30px 0 !important;
+    background-color: var(--neutral-silver);
+}
+nav ul li{
+    padding-right: 50px;
+}
+nav ul li a{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    padding: 0 !important;
+}
+nav ul li a:hover{
+    color: var(--brand-primary);
+}
+nav ul li a.currentPage{
+    color: var(--brand-primary);
+}
+nav ul li:nth-child(6){
+    padding-right: 0;
+}
+nav .signUp_grp a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: var(--brand-primary);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+}
+nav .signUp_grp a:hover{
+    border: 1px solid var(--brand-primary);
+    background-color: transparent;
+    border-radius: 6px;
+    color: var(--brand-primary);
+}
+nav .signUp_grp .sign_up{
+    color: var(--neutral-white);
+    background-color: var(--brand-primary);
+    border-radius: 6px;
+}
+
+    /* =================== OFF-CANVAS START =================== */
+    nav .navbar-toggler{
+        border: none;
+        box-shadow: none !important;
+    }
+    .offcanvas .btn-close{
+        border: none;
+        box-shadow: none !important;
+    }
+    .offcanvas-body .nav-link{
+        padding: 0;
+    }
+    .offcanvas-body ul{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--brand-primary);
+        border-radius: 4px;
+    }
+    .offcanvas-body ul li{
+        display: flex;
+        flex-direction: row;
+        padding: 12px 17px;
+        align-items: center;
+    }
+    .offcanvas-body ul li span{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        color: var(--neutral-white);
+        margin-right: 14px;
+    }
+    .offcanvas-body ul li a{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: var(--neutral-white);
+    }
+    .offcanvas-body ul li a:hover{
+        color: var(--neutral-white);
+    }
+    .offcanvas-body .signUp_grp{
+        margin-top: 40px;
+    }
+    .offcanvas-body .signUp_grp a{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: var(--brand-primary);
+        padding: 10px 20px;
+        border: 1px solid transparent;
+    }
+    .offcanvas-body .signUp_grp a:hover{
+        border: 1px solid var(--brand-primary);
+        background-color: transparent;
+        border-radius: 6px;
+        color: var(--brand-primary);
+    }
+    .offcanvas-body .signUp_grp .logIn{
+        color: var(--neutral-white);
+        background-color: var(--brand-primary);
+        border-radius: 6px;
+    }
+    /* =================== OFF-CANVAS END =================== */
+
+/* =================== NAV END =================== */
+
+
+/* =================== BANNER START =================== */
+#banner{
+    background-color: var(--neutral-silver);
+    padding: 96px 0;
+}
+#banner .bannerContents{
+    padding: 65px 0;
+}
+#banner .bannerImage{
+    text-align: center;
+}
+#banner h3{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 119%;
+    color: var(--neutral-d-grey);
+}
+#banner h3 span{
+    color: var(--brand-primary);
+}
+#banner p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--neutral-grey);
+    padding: 16px 0 32px 0;
+}
+#banner a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-white);
+    background-color: var(--brand-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+#banner a:hover{
+    border: 1px solid var(--brand-primary);
+    color: var(--brand-primary);
+    background-color: var(--neutral-white);
+}
+/* =================== BANNER END =================== */
+
+
+
+/* =================== OUR CLIENTS START =================== */
+#clients{
+    padding: 40px 0;
+}
+#clients h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    padding-bottom: 8px;
+}
+#clients p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-grey);
+}
+#clients .heading{
+    padding-bottom: 16px;
+}
+#clients ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+#clients li{
+    display: inline-block;
+}
+#clients li a{
+    display: inline-block;
+    padding: 25px 55px;
+}
+/* =================== OUR CLIENTS END =================== */
+
+
+/* =================== MANAGE COMMUNITY START =================== */
+#manageCommunity{
+    padding-bottom: 62px;
+}
+#manageCommunity .header h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--neutral-d-grey);
+    padding: 0 300px;
+}
+#manageCommunity .header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--neutral-grey);
+    padding: 8px 0 16px 0;
+}
+#manageCommunity .communityCard{
+    text-align: center;
+    background-color: var(--neutral-white);
+    box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+    border-radius: 8px;
+    padding: 24px 35px;
+    margin: 0 30px;
+    border: none;
+}
+#manageCommunity .communityCard h5{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 129%;
+    letter-spacing: -0.01em;
+    color: var(--neutral-d-grey);
+    padding: 16px 0 8px 0;
+    margin: 0;
+}
+#manageCommunity .communityCard p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: -0.01em;
+    color: var(--neutral-grey);
+    margin: 0;
+}
+/* =================== MANAGE COMMUNITY END =================== */
+
+
+
+/* =================== PIXEL-GRADE START =================== */
+#pixelGrade{
+    padding-bottom: 48px;
+}
+#pixelGrade .pixelImage{
+    text-align: center;
+}
+#pixelGrade .pixelContent{
+    padding: 83px 40px 83px 30px;
+    text-align: left;
+}
+#pixelGrade .pixelContent h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    color: var(--neutral-d-grey);
+}
+#pixelGrade .pixelContent p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--neutral-grey);
+    padding: 16px 0 32px 0;
+}
+#pixelGrade a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-white);
+    background-color: var(--brand-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--brand-primary);
+}
+#pixelGrade a:hover{
+    border: 1px solid var(--brand-primary);
+    color: var(--brand-primary);
+    background-color: var(--neutral-white);
+}
+/* =================== PIXEL-GRADE END =================== */
+
+
+
+/* =================== HELPING A LOCAL START =================== */
+#helpingLocal{
+    background-color: var(--neutral-silver);
+    padding: 84px 0;
+}
+#helpingLocal .helpingContains{
+    align-items: center;
+}
+#helpingLocal .helpingContent{
+    text-align: left;
+}
+#helpingLocal .helpingContent h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    color: var(--neutral-d-grey);
+    padding-right: 240px;
+}
+#helpingLocal .helpingContent h2 span{
+    color: var(--brand-primary);
+}
+#helpingLocal .helpingContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+    padding-top: 8px;
+}
+#helpingLocal .helpingArea{
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+#helpingLocal .helpingArea .row{
+    align-items: center;
+}
+#helpingLocal .amountDetails{
+    padding-left: 6px;
+}
+#helpingLocal .amountDetails h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 129%;
+    color: var(--neutral-d-grey);
+}
+#helpingLocal .amountDetails p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--neutral-grey);
+}
+/* =================== HELPING A LOCAL END =================== */
+
+
+
+/* =================== SITE-FOOTER START =================== */
+#siteFooter{
+    padding: 48px 0;
+}
+#siteFooter .siteFooterImage{
+    text-align: center;
+}
+#siteFooter .siteFooterContent{
+    padding: 83px 20px 83px 30px;
+    text-align: left;
+}
+#siteFooter .siteFooterContent h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    color: var(--neutral-d-grey);
+}
+#siteFooter .siteFooterContent p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--neutral-grey);
+    padding: 16px 0 32px 0;
+}
+#siteFooter a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-white);
+    background-color: var(--brand-primary);
+    padding: 14px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--brand-primary);
+}
+#siteFooter a:hover{
+    border: 1px solid var(--brand-primary);
+    color: var(--brand-primary);
+    background-color: var(--neutral-white);
+}
+/* =================== SITE-FOOTER END =================== */
+
+
+/* =================== TIM SMITH START =================== */
+#timSmith{
+    background-color: var(--neutral-silver);
+}
+#timSmith .row{
+    padding: 33px 0;
+}
+#timSmith .timSmithImage{
+    text-align: center;
+}
+#timSmith .timSmithContent{
+    padding-left: 20px;
+}
+#timSmith .timSmithContent p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--neutral-grey);
+}
+#timSmith .timSmithContent h6{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--brand-primary);
+    padding: 8px 0;
+}
+#timSmith .timSmithContent .british{
+    font-weight: 400;
+    color: var(--neutral-l-grey);
+    padding-bottom: 20px;
+}
+#timSmith .timSmithContent .customer_grp{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+#timSmith .timSmithContent ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0 32px 0 0;
+}
+#timSmith .timSmithContent ul li{
+    padding-right: 41px;
+}
+#timSmith .timSmithContent ul li:last-child{
+    padding-right: 0;
+}
+#timSmith .timSmithContent .button_group{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--brand-primary);
+}
+/* =================== TIM SMITH END =================== */
+
+
+/* =================== CARING START =================== */
+.clearfix {
+clear: both;
+}
+#caringMarketing{
+    padding: 46px 0 95px 0;
+}
+#caringMarketing h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: var(--neutral-d-grey);
+}
+#caringMarketing p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--neutral-grey);
+    padding: 8px 241px 16px 241px;
+}
+#caringMarketing .caringCard{
+    position: relative;
+}
+#caringMarketing .caringCard img{
+    max-width: 100%;
+}
+#caringMarketing .caringContent{
+    padding: 16px 30px 24px 30px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.4);
+    background: var(--neutral-silver);
+    border-radius: 8px;
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    bottom: 0;
+    transform: translateY(50%);
+}
+#caringMarketing h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--neutral-grey);
+    padding-bottom: 16px;
+}
+#caringMarketing .btn_grp{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--brand-primary);
+}
+#caringMarketing .right_arrow{
+    display: inline-block;
+    margin-left: 6px;
+}
+/* =================== CARING END =================== */
+
+
+/* =================== GET A DEMO START =================== */
+#getDemo{
+    background-color: var(--neutral-silver);
+    margin-top: 95px;
+}
+#getDemo .container{
+    text-align: center;
+    padding: 32px 200px;
+}
+#getDemo h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 119%;
+    text-align: center;
+    color: var(--neutral-black);
+    padding-bottom: 32px;
+}
+#getDemo .btn_group{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    background-color: var(--neutral-black);
+    color: var(--neutral-white);
+    padding: 16px 20px 16px 33px;
+    border: none;
+    position: relative;
+    z-index: 10;
+    border-radius: 5px;
+}
+#getDemo .btn_group::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--brand-primary);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    mask: url('https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png');
+    mask-size: 3000% 100%;
+    animation: cover_2 0.9s backwards steps(29);
+}
+#getDemo .btn_group:hover::before{
+    animation: cover_1 0.9s forwards steps(29);
+}
+@keyframes cover_1 {
+    0%{
+      mask-position: 0 0;
+    }
+    100%{
+        mask-position: 100% 0;
+
+    }
+}
+@keyframes cover_2 {
+    0%{
+      mask-position: 100% 0;
+    }
+    100%{
+      mask-position: 0 0;
+
+    }
+}
+#getDemo .right_arrow{
+    padding: 0 0 0 10px;
+}
+/* =================== GET A DEMO END =================== */
+
+
+
+/* =================== FOOTER START =================== */
+#footer{
+    background-color: var(--neutral-black);
+    padding: 64px 0 74px 0;
+}
+#footer .row{
+    display: flex;
+    flex-direction: row;
+}
+#footer .footerLogo{
+    display: flex;
+    flex-direction: column;
+}
+#footer .footerRights{
+    padding: 40px 0;
+}
+#footer .footerRights p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--neutral-silver);
+}
+#footer .footerRights .allRights{
+    padding-top: 8px;
+}
+#footer .footerIcon{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 38px;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: var(--neutral-white);
+    font-size: 18px;
+    margin-right: 16px;
+}
+#footer .footerIcon:hover{
+    background-color: var(--neutral-silver);;
+    color: var(--neutral-black);
+}
+#footer .footerCompany{
+    display: flex;
+    flex-direction: column;
+}
+#footer .footerCompany h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--neutral-white);
+    padding-bottom: 24px;
+}
+#footer .footerCompany li a{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--neutral-silver);
+    margin-bottom: 12px;
+}
+#footer .footerCompany li a:hover{
+    color: var(--brand-primary);
+}
+#footer .footerSupport{
+    display: flex;
+    flex-direction: column;
+}
+#footer .footerSupport h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--neutral-white);
+    padding-bottom: 24px;
+}
+#footer .footerSupport li a{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: var(--neutral-silver);
+    margin-bottom: 12px;
+}
+#footer .footerSupport li a:hover{
+    color: var(--brand-primary);
+}
+#footer .footerStay{
+    display: flex;
+    flex-direction: column;
+}
+#footer .footerStay h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--neutral-white);
+    padding-bottom: 24px;
+}
+#footer .footerStay input{
+    background-color: rgb(255, 255, 255, 0.2);
+    border: none;
+    padding: 9px 14px 11px 7px;
+}
+#footer .footerStay input::placeholder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #d9dbe1;
+}
+#footer .footerStay button{
+    background-color: transparent;
+}
+#footer .footerStay form{
+    position: relative;
+}
+#footer .footerStay .send{
+    display: inline-block;
+    font-size: 16px;
+    color: var(--neutral-white);
+    position: absolute;
+    right: 20px;
+    bottom: 50px;
+}
+/* =================== FOOTER END =================== */
